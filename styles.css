@@ -1,0 +1,62 @@
+/*assignment view*/
+.ui-dialog .ui-widget-content {
+    background-color: #000;
+	color: white !important;
+}
+.ui-widget-content {
+    color: #FFF;
+}
+
+.os-rec-head, .assignmentreports_core .panel.assignment .name_bar{
+    background: black;
+    border: #4D4D4D;
+}
+
+/* dialog bar */
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #323232;
+}
+
+/* wall chat */
+.wall_widget, .wall_widget div, .wall_widget p {
+    background: black !important;
+    color: white !important;
+}
+
+/* content backgrounds and colour changes */
+.sites_site > .sites-site-content > .theme-container > div > div > div, .sites_site > .sites-site-content > div > div > div > .ui-theme-blueangle-cont, .sites-site-content > .theme-container > div > div > div > div > .ui-theme-nightingalefour-midpad, .cont, .ui-theme-judd2 div.cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-containertop, .assignmentreports_core .content .panes .panel, .ui-theme-science-container .ui-theme-science-cont, .second-nav-bg, .ui-theme-classic-ribbon-wrap, .ui-theme-classic-ribbon-head h1, .ui-theme-classic-ribbon-head p{
+    background: black;
+    color: white !important;
+}
+
+/* square link buttons */
+div.row-fluid .link-widget {
+    color: white;
+    background-color: #323232;
+    border-color: #4D4D4D;
+}
+
+div.row-fluid .link-widget .os-ellipsis{
+    color:white;
+}
+
+/* make timeline bg transparent */
+.ui-theme-timeline-cont, .frogui_modules_timeline, .widget_timeline {
+    background: transparent !important;
+}
+
+/*bg and text colour for timeline items*/
+.frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post {
+	color: #FFFFFF;
+    background: #000;
+}
+
+.frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header {
+    background-color: #333;
+}
+
+/* likes this text on timeline*/ 
+.frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header .overview {
+    color: inherit;
+	
+}
