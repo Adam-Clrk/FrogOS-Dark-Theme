@@ -74,10 +74,7 @@ div.row-fluid .link-widget .os-ellipsis{
     background: 707070;
 }
 
-/* hide loading message */
-.msg_loading {
-	display: none !important;
-}
+
 /* show loaded message */
 .msg_loaded {
 	display: block !important;
