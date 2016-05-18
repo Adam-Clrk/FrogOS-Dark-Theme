@@ -1,6 +1,6 @@
 /*assignment view*/
 .ui-dialog .ui-widget-content {
-    background-color: #000;
+    background: #000;
 	color: white !important;
 }
 .ui-widget-content {
@@ -13,8 +13,8 @@
 }
 
 /* dialog bar */
-.ui-dialog .ui-dialog-titlebar, .ui-search-holder-title, .ui-blue-gradient, .ui-site-holder{
-	background-color: #323232;
+.ui-dialog .ui-dialog-titlebar, .ui-search-holder-title{
+	background: #323232;
 	color: white;
 }
 
@@ -33,7 +33,7 @@
 /* square link buttons */
 div.row-fluid .link-widget {
     color: white;
-    background-color: #323232;
+    background: #323232;
     border-color: #4D4D4D;
 }
 
@@ -48,16 +48,24 @@ div.row-fluid .link-widget .os-ellipsis{
 
 /*bg and text colour for timeline items*/
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post {
-	color: #FFFFFF;
+    color: #FFFFFF;
     background: #000;
 }
 
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header {
-    background-color: #333;
+    background: #333;
 }
 
 /* likes this text on timeline*/ 
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header .overview {
     color: inherit;
 	
+}
+
+/* site holder in frogdrive */
+
+.ui-site-holder {
+    color: white;
+    background: #323232;
+    border-color: #4D4D4D;
 }
