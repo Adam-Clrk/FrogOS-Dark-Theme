@@ -24,7 +24,7 @@
 	width: 16px;
 	height: 18px;
 }
-.ui-dialog .ui-maximiser {
+.ui-dialog .ui-maximiser span {
 	background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/maximise.png);
 	background-position: 0px 0px;
 	width: 16px;
