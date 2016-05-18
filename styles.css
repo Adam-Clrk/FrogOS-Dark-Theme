@@ -69,3 +69,12 @@ div.row-fluid .link-widget .os-ellipsis{
     background: #323232;
     border-color: #4D4D4D;
 }
+
+/* hide loading message */
+.msg_loading {
+	display: none;
+}
+/* show loaded message */
+.msg_loaded {
+	display: block;
+}
