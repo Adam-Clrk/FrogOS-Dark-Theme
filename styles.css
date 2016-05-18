@@ -19,20 +19,17 @@
 }
 /* close and maximise buttons */
 .ui-dialog .ui-dialog-titlebar-close span {
-	background-image:url(https://raw.githubusercontent.com/AdamClarke0/files/master/close.png);
-	background-position:0px 0px;
-	width:16px;
-	height:18px;
+	background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/close.png);
+	background-position: 0px 0px;
+	width: 16px;
+	height: 18px;
 }
 .ui-dialog .ui-maximiser {
-	background-image:url(https://raw.githubusercontent.com/AdamClarke0/files/master/maximise.png);
+	background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/maximise.png);
 	background-position: 0px 0px;
-	width:16px;
-	height:18px;
+	width: 16px;
+	height: 18px;
 }
-
-
-
 
 /* wall chat */
 .wall_widget, .wall_widget div, .wall_widget p {
