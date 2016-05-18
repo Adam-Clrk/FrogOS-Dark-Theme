@@ -24,7 +24,7 @@
 }
 
 /* content backgrounds and colour changes */
-.sites_site > .sites-site-content > .theme-container > div > div > div, .sites_site > .sites-site-content > div > div > div > .ui-theme-blueangle-cont, .sites-site-content > .theme-container > div > div > div > div > .ui-theme-nightingalefour-midpad, .cont, .ui-theme-judd2 div.cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-containertop, .assignmentreports_core .content .panes .panel, .ui-theme-science-container .ui-theme-science-cont, .second-nav-bg, .ui-theme-classic-ribbon-wrap, .ui-theme-classic-ribbon-head h1, .ui-theme-classic-ribbon-head p{
+.sites_site > .sites-site-content > .theme-container > div > div > div, .sites_site > .sites-site-content > div > div > div > .ui-theme-blueangle-cont, .sites-site-content > .theme-container > div > div > div > div > .ui-theme-nightingalefour-midpad, .cont, .ui-theme-judd2 div.cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-cont, .ui-theme-technologytheme-container .ui-theme-technologytheme-containertop, .assignmentreports_core .content .panes .panel, .ui-theme-science-container .ui-theme-science-cont, .second-nav-bg, .ui-theme-classic-ribbon-wrap, .ui-theme-classic-ribbon-head h1, .ui-theme-classic-ribbon-head p, .ui-site-holder{
     background: black;
     color: white !important;
 }
