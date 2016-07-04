@@ -101,7 +101,11 @@ div.row-fluid .link-widget .os-ellipsis{
 .msg_loaded {
 	display: block !important;
 }
-
+/* quick assign*/
+.ui-theme-quick-assign-head p, .ui-theme-quick-assign-head h1{
+    background: black;
+    color: white !important;
+}
 .ui-theme-quick-assign-wrap {
     box-shadow: 0px 0px 85px 2px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0px 0px 85px 2px rgba(0,0,0,0.3);
