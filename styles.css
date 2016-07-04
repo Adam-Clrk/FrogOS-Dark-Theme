@@ -70,7 +70,14 @@ div.row-fluid .link-widget .os-ellipsis{
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header {
     background: #333;
 }
+.frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comment {
+    background: black;
+    color: white !important;
+}
 
+.timeline-comments div {
+	background: inherit;
+}
 /* likes this text on timeline
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header .overview {
     color: inherit;
