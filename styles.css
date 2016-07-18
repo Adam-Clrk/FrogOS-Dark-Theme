@@ -1,36 +1,11 @@
-/*assignment view*/
-.ui-dialog .ui-widget-content {
-    background: #000;
-	color: white !important;
-}
-.ui-widget-content, .ui-widget-content {
-    color: #FFF;
-}
-
-.os-rec-head, .assignmentreports_core .panel.assignment .name_bar{
-    background: black;
-    border: #4D4D4D;
-}
-
 /* dialog bar */
 .ui-dialog .ui-dialog-titlebar, .ui-search-holder-title{
 	background: #323232;
 	color: white;
 }
 /* close and maximise buttons */
-.ui-dialog .ui-dialog-titlebar-close span {
-	background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/close.png);
-	background-position: 0px 0px;
-	width: 16px;
-	height: 18px;
-}
-.ui-dialog .ui-maximiser span {
-	background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/maximise.png);
-	background-position: 0px 0px;
-	width: 16px;
-	height: 18px;
-	background-repeat: no-repeat;
-	padding: 6px;
+.ui-dialog .ui-dialog-titlebar-close span, .ui-dialog .ui-maximiser span {
+    background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/icons.png);
 }
 
 /* wall chat */
@@ -45,7 +20,22 @@
     color: white !important;
 }
 
-/* square link buttons */
+/*assignment view*/
+.ui-dialog .ui-widget-content {
+    background: #000;
+	color: white !important;
+}
+.ui-widget-content, .ui-widget-content {
+    color: #FFF;
+}
+
+.os-rec-head, .assignmentreports_core .panel.assignment .name_bar{
+    background: black;
+    border: #4D4D4D;
+}
+
+
+/* rounded rectangle link buttons */
 div.row-fluid .link-widget {
     color: white;
     background: #323232;
@@ -96,11 +86,6 @@ div.row-fluid .link-widget .os-ellipsis{
     background: 707070;
 }
 
-
-/* show loaded message */
-.msg_loaded {
-	display: block !important;
-}
 /* quick assign*/
 .ui-theme-quick-assign-head p, .ui-theme-quick-assign-head h1{
     background: black;
@@ -109,4 +94,24 @@ div.row-fluid .link-widget .os-ellipsis{
 .ui-theme-quick-assign-wrap {
     box-shadow: 0px 0px 85px 2px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0px 0px 85px 2px rgba(0,0,0,0.3);
+}
+
+/* frogdrive */
+ul.frogui_components_verticalmenu a.selected {
+	background: #d7f3ff;
+}
+
+/* frogdrive sidebar icons */
+body .ui-vmenu-sites {
+    background-image: url(../public/sprite/ui-vmenu/sprite.png?v=);
+}
+
+/* links still blue on hover */
+a:hover, a:focus {
+    color: #005580;
+}
+
+/* show loaded message */
+.msg_loaded {
+	display: block !important;
 }
