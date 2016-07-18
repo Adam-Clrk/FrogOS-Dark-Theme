@@ -102,8 +102,8 @@ ul.frogui_components_verticalmenu a.selected {
 }
 
 /* frogdrive sidebar icons */
-body .ui-vmenu-sites {
-    background-image: url(../public/sprite/ui-vmenu/sprite.png?v=);
+body .ui-vmenu-sites, body .ui-vmenu-latestfiles {
+    background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/sprite.png);
 }
 
 /* links still blue on hover */
