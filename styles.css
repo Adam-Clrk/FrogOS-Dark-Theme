@@ -5,7 +5,7 @@
 }
 /* close and maximise buttons */
 .ui-dialog .ui-dialog-titlebar-close span, .ui-dialog .ui-maximiser span {
-    background-image: url(https://raw.githubusercontent.com/AdamClarke0/files/master/icons.png);
+    background-image: url(https://raw.githubusercontent.com/Adam-Clrk/files/master/icons.png);
 }
 
 /* wall chat */
@@ -71,7 +71,7 @@ div.row-fluid .link-widget .os-ellipsis{
 /* likes this text on timeline
 .frogui_modules_timeline .spine-container .events-container .timeline-item .timeline-post .timeline-comments .timeline-comments-header .overview {
     color: inherit;
-	
+
 }*/
 
 /* site holder in frogdrive */
